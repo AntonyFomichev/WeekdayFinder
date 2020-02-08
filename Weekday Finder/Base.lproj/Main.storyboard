@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weekday_Finder" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kdQ-8Y-k2E">
+                                <rect key="frame" x="33" y="214.5" width="50" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ufn-6B-A5U">
+                                <rect key="frame" x="33" y="266.5" width="34" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Week day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfM-Af-rk1">
+                                <rect key="frame" x="33" y="318.5" width="75" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1lQ-Tf-EWt">
+                                <rect key="frame" x="129" y="260" width="175" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1lQ-Tf-EWt" secondAttribute="height" multiplier="175:34" id="pZx-su-b5A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="22e-Vd-VRM">
+                                <rect key="frame" x="129" y="157" width="175" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="22e-Vd-VRM" secondAttribute="height" multiplier="175:34" id="RuK-K8-aZB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U7q-Hq-7hP">
+                                <rect key="frame" x="129" y="208" width="175" height="34"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="U7q-Hq-7hP" secondAttribute="height" multiplier="175:34" id="5fz-GY-4qi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C1w-Ze-gx2">
+                                <rect key="frame" x="129" y="312" width="175" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="C1w-Ze-gx2" secondAttribute="height" multiplier="175:34" id="NMq-bR-MXn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekday Finder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8c-9U-GSf">
+                                <rect key="frame" x="33" y="40" width="254" height="44"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="32"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjJ-BX-QAj">
+                                <rect key="frame" x="33" y="164" width="30" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbg-OP-1pK">
+                                <rect key="frame" x="92.5" y="404" width="135" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Gbg-OP-1pK" secondAttribute="height" multiplier="9:2" id="beH-zf-XLR"/>
+                                    <constraint firstAttribute="height" constant="30" id="ufm-rj-Dfk"/>
+                                </constraints>
+                                <state key="normal" title="Show week day">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="findDay" destination="BYZ-38-t0r" eventType="touchUpInside" id="rTc-yD-w7I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="C1w-Ze-gx2" firstAttribute="centerY" secondItem="gfM-Af-rk1" secondAttribute="centerY" id="2D5-uW-zqP"/>
+                            <constraint firstItem="qjJ-BX-QAj" firstAttribute="top" secondItem="z8c-9U-GSf" secondAttribute="bottom" constant="80" id="3un-ze-LxH"/>
+                            <constraint firstItem="C1w-Ze-gx2" firstAttribute="top" secondItem="1lQ-Tf-EWt" secondAttribute="bottom" constant="18" id="4P2-wc-aRX"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="5BU-cV-GGq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1lQ-Tf-EWt" secondAttribute="trailing" constant="16" id="65Q-h8-oTv"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="leading" secondItem="gfM-Af-rk1" secondAttribute="leading" id="ADk-yv-2ZH"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="DbA-xw-S0S"/>
+                            <constraint firstItem="gfM-Af-rk1" firstAttribute="top" secondItem="Ufn-6B-A5U" secondAttribute="bottom" constant="31" id="EBC-67-Edh"/>
+                            <constraint firstItem="Gbg-OP-1pK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FUj-jw-5aL"/>
+                            <constraint firstItem="Gbg-OP-1pK" firstAttribute="top" secondItem="C1w-Ze-gx2" secondAttribute="bottom" constant="58" id="JQo-TV-y7f"/>
+                            <constraint firstItem="C1w-Ze-gx2" firstAttribute="leading" secondItem="1lQ-Tf-EWt" secondAttribute="trailing" constant="-175" id="KBK-4M-Gkc"/>
+                            <constraint firstItem="U7q-Hq-7hP" firstAttribute="top" secondItem="22e-Vd-VRM" secondAttribute="bottom" constant="17" id="MnX-5c-yic"/>
+                            <constraint firstItem="1lQ-Tf-EWt" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ufn-6B-A5U" secondAttribute="trailing" constant="62" id="OSU-vS-zL8"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="leading" secondItem="kdQ-8Y-k2E" secondAttribute="leading" id="Qxz-PJ-OcQ"/>
+                            <constraint firstItem="22e-Vd-VRM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qjJ-BX-QAj" secondAttribute="trailing" constant="66" id="TOm-G5-dKn"/>
+                            <constraint firstItem="C1w-Ze-gx2" firstAttribute="trailing" secondItem="1lQ-Tf-EWt" secondAttribute="trailing" id="TyN-RY-lHP"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Wqa-MW-XHL"/>
+                            <constraint firstItem="C1w-Ze-gx2" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="gfM-Af-rk1" secondAttribute="trailing" constant="21" id="YJ6-LR-lCa"/>
+                            <constraint firstItem="22e-Vd-VRM" firstAttribute="top" secondItem="z8c-9U-GSf" secondAttribute="bottom" constant="73" id="dIB-Yg-zUL"/>
+                            <constraint firstItem="U7q-Hq-7hP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kdQ-8Y-k2E" secondAttribute="trailing" constant="46" id="g1I-XY-lVg"/>
+                            <constraint firstItem="Ufn-6B-A5U" firstAttribute="top" secondItem="kdQ-8Y-k2E" secondAttribute="bottom" constant="31" id="lTm-RF-Rs7"/>
+                            <constraint firstItem="kdQ-8Y-k2E" firstAttribute="top" secondItem="qjJ-BX-QAj" secondAttribute="bottom" constant="30.5" id="pSu-aE-2d1"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="leading" secondItem="qjJ-BX-QAj" secondAttribute="leading" id="r4e-RR-OLI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U7q-Hq-7hP" secondAttribute="trailing" constant="16" id="s3c-Vm-pmR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="22e-Vd-VRM" secondAttribute="trailing" constant="16" id="va3-t2-EhV"/>
+                            <constraint firstItem="z8c-9U-GSf" firstAttribute="leading" secondItem="Ufn-6B-A5U" secondAttribute="leading" id="yqL-gQ-QHP"/>
+                            <constraint firstItem="1lQ-Tf-EWt" firstAttribute="top" secondItem="U7q-Hq-7hP" secondAttribute="bottom" constant="18" id="z3a-ux-TAp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="dayText" destination="22e-Vd-VRM" id="aGL-nY-YQD"/>
+                        <outlet property="monthText" destination="U7q-Hq-7hP" id="Ac2-ZR-7eY"/>
+                        <outlet property="weekDayText" destination="C1w-Ze-gx2" id="wRG-Q0-sbf"/>
+                        <outlet property="yearText" destination="1lQ-Tf-EWt" id="zp0-z5-sjN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.25" y="131.25"/>
+        </scene>
+    </scenes>
+</document>
